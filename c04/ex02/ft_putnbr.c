@@ -6,7 +6,7 @@
 /*   By: swu <swu@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/19 04:57:01 by swu               #+#    #+#             */
-/*   Updated: 2023/09/19 06:29:51 by swu              ###   ########.fr       */
+/*   Updated: 2023/09/20 04:11:10 by swu              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,6 +56,6 @@ void ft_putnbr(int nb)
     }
     else
     {
-        ft_putstr("Eror, out of range");
+        ft_putstr("Error, out of range");
     }
 }
