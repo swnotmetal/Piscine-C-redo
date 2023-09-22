@@ -6,7 +6,7 @@
 /*   By: swu <swu@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/22 01:20:55 by swu               #+#    #+#             */
-/*   Updated: 2023/09/22 02:42:11 by swu              ###   ########.fr       */
+/*   Updated: 2023/09/22 02:45:04 by swu              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,6 +50,7 @@ void    print_base_nb(int nbr, char *base, int size)
     c = base[n % size];
     ft_putchar(c);
 }
+
 void    ft_putnbr_base(int nbr, char *base)
 {
     int i;
